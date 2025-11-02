@@ -1,6 +1,8 @@
 # DCS: AH-1G Cobra Manual
 Welcome to the DCS AH-1G Cobra Manual. This document will serve as your lookup reference for how to operate the helicopter.
 
+![Cobra Sunset](images/CobraSunset.png)
+
 ## AH‑1G Cobra — Overview
 
 The AH‑1G Cobra is a Vietnam‑era light attack helicopter developed from the UH‑1 Huey airframe to provide dedicated fire support. It features a slim, tandem cockpit (pilot and gunner) and a single turboshaft powerplant, giving it a smaller frontal profile and improved forward visibility compared with utility helicopters.
