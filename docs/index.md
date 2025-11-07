@@ -1,5 +1,5 @@
 # DCS: AH-1G Cobra Manual
-Welcome to the DCS AH-1G Cobra Manual. This document will serve as your lookup reference for how to operate the helicopter.
+Welcome to the DCS AH-1G Cobra Manual. This document will be your quick reference guide for how to operate the helicopter.
 
 ![Cobra Sunset](images/CobraSunset.png)
 

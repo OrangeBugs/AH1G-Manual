@@ -1,3 +1,25 @@
 site_name: DCS AH-1G Cobra Manual
 theme:
   name: readthedocs
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.blocks.caption
+  - toc:
+      permalink: "#"
+
+nav:
+  - AH-1G Manual: index.md
+  - Setup:
+    - Keybindings: Setup/Keybinds.md
+    - Special Options: Setup/SpecialOptions.md
+    - Multicrew: Setup/Multicrew.md
+  - Radios:
+    - Overview: Radios/Overview.md
+  - Navigation:
+    - Overview: Navigation/Overview.md
+  - Weapons:
+    - Overview: Weapons/Overview.md
+    - Switches: Weapons/Switches.md
+    - Employment: Weapons/Employment.md
