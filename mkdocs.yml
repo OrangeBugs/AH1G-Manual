@@ -14,8 +14,9 @@ extra_css:
 
 nav:
   - AH-1G Manual: index.md
+  - Support / Bug Reporting: support.md
   - Setup:
-    - Keybindings: Setup/Keybinds.md
+    - Keybinds: Setup/Keybinds.md
     - Special Options: Setup/SpecialOptions.md
     - Multicrew: Setup/Multicrew.md
   - Radios:

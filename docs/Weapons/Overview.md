@@ -59,7 +59,7 @@ The XM197 is a 20x102mm 3 barrel minigun, housing 950 rounds.
 
 ### GE430
 
-The GE430 shoots 80x173mm rounds, with a capacity of 80 rounds.
+The GE430 shoots 30x173mm rounds, with a capacity of 80 rounds.
 
 ![GE430](images/GE430.png)
 *GE430 equipped Cobra breaks away from the camera ship*

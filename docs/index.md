@@ -9,6 +9,8 @@ The AH‑1G Cobra is a Vietnam‑era light attack helicopter developed from the 
 
 Typical roles include close air support, armed escort, and armed reconnaissance. The type is built around a forward‑firing weapons philosophy: a nose‑mounted gun turret supplemented by hardpoints for unguided rockets and guided anti‑armor weapons on later variants.
 
+![Cobra](images/VNAH1GWP013.png)
+
 Key features
 
 * Two‑seat tandem cockpit for pilot and gunner
