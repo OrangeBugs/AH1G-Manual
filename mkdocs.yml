@@ -9,6 +9,9 @@ markdown_extensions:
   - toc:
       permalink: "#"
 
+extra_css:
+  - css/drafts.css
+
 nav:
   - AH-1G Manual: index.md
   - Setup:
@@ -23,3 +26,8 @@ nav:
     - Overview: Weapons/Overview.md
     - Switches: Weapons/Switches.md
     - Employment: Weapons/Employment.md
+
+draft_docs: |
+  Setup/
+  Radios/
+  Navigation/
