@@ -102,7 +102,7 @@ The AH-1Gs Rockets are boresighted to travel along the angled lines at the top o
 !!! Warning
     At time of release, gunsight depression is not simulated. This is on our todo list post release, for now, accurate results can be acheived with some practice in our test missions.
 
-#### Quick Reference Checklist
+### Quick Reference Checklist
 
 | Switch | Position |
 | ------ | -------- |
