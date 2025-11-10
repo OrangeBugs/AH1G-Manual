@@ -1,6 +1,4 @@
 site_name: DCS AH-1G Cobra Manual
-theme:
-  name: readthedocs
 
 markdown_extensions:
   - admonition
@@ -11,6 +9,8 @@ markdown_extensions:
 
 extra_css:
   - css/drafts.css
+  - css/images.css
+  - css/links.css
 
 nav:
   - AH-1G Manual: index.md
@@ -30,5 +30,46 @@ nav:
 
 draft_docs: |
   Setup/
+  !Setup/Keybinds.md
   Radios/
   Navigation/
+
+theme:
+  # name: readthedocs
+  name: material
+  palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/link
+      name: Switch to light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    primary: black
+    accent: indigo
+    toggle:
+      icon: material/toggle-switch-off
+      name: Switch to system preference
+    features:
+    - content.code.copy
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+
+# plugins:
+  # - to-pdf
