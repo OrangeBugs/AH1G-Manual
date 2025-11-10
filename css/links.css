@@ -1,0 +1,7 @@
+.md-typeset a {
+    color: #ff5a00;
+}
+
+.md-typeset a:hover {
+    color: #9b3701;
+}
