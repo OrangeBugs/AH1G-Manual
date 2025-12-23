@@ -29,13 +29,6 @@ nav:
     - Switches: Weapons/Switches.md
     - Employment: Weapons/Employment.md
 
-draft_docs: |
-  Setup/
-  !Setup/Keybinds.md
-  !Setup/Installation.md
-  !Setup/images
-  Radios/
-  Navigation/
 
 theme:
   # name: readthedocs
