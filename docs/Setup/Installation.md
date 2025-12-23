@@ -19,7 +19,7 @@ The AH-1G cobra can be installed from ***insert link here***.
 
 On the download site, you will see potentially 2 or more zip files, depending on how many livery packs are available, at the bottom of the new version changelog
 
-![alt text](images/githubReleases.png)
+![alt text](/Setup/images/githubReleases.png)
 
 Download the `AH-1G-vX.X.X.zip` file, and the livery packs as desired.
 
@@ -34,13 +34,13 @@ You should now have at least 2 zip files in your downloads.
 
 Select a zip file, click the `Extract All` Button
 
-![alt text](images/extractButton.png)
+![alt text](/Setup/images/extractButton.png)
 
 In the resulting popup menu, click browse, then navigate to your Saved Games/DCS (or DCS.OpenBeta) folder.
 
 Click `Extract`
 
-![alt text](images/extraction.png)
+![alt text](/Setup/images/extraction.png)
 
 !!! Warning
     Only Navigate to the DCS folder. Do **NOT** enter a sub folder like mods or liveries, because the files will install in the wrong place
