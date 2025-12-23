@@ -33,6 +33,7 @@ draft_docs: |
   Setup/
   !Setup/Keybinds.md
   !Setup/Installation.md
+  !Setup/images
   Radios/
   Navigation/
 
