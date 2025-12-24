@@ -28,6 +28,19 @@ Download the `AH-1G-vX.X.X.zip` file, and the livery packs as desired.
 
 ---
 
+## Updating
+
+To update to a new version and prevent any potential issues, please uninstall any previous versions.
+
+Navigate to your `Saved Games/DCS/mods/aircraft` and delete the AH-1G folder, then navigate to the `Saved Games/DCS/mods/tech` folder and remove the `AH-1G_Weaponspack` folder.
+
+Repeat steps in [Download](#download) and [Installation](#installation)
+
+!!! Note
+    Liveries are installed seperately, in the `Saved Games/DCS/Liveries/` folder, there are seperate folders for the AH1G, O-1E, and the UH-1C. You will not need to delete these files before overwriting.
+
+---
+
 ## Installation
 
 You should now have at least 2 zip files in your downloads.
@@ -42,6 +55,8 @@ Click `Extract`
 
 ![alt text](images/extraction.png)
 
+![alt text](images/extractionBrowser.png)
+
 !!! Warning
     Only Navigate to the DCS folder. Do **NOT** enter a sub folder like mods or liveries, because the files will install in the wrong place
 
@@ -49,18 +64,7 @@ Wait for the extraction to complete, then repeat the above steps for any remaini
 
 ---
 
-## Updating
 
-To update to a new version and prevent any potential issues, please uninstall any previous versions.
-
-Navigate to your `Saved Games/DCS/mods/aircraft` and delete the AH-1G folder, then navigate to the `Saved Games/DCS/mods/tech` folder and remove the `AH-1G_Weaponspack` folder.
-
-Repeat steps in [Download](#download) and [Installation](#installation)
-
-!!! Note
-    Liveries are installed seperately, in the `Saved Games/DCS/Liveries/` folder, there are seperate folders for the AH1G, O-1E, and the UH-1C. You will not need to delete these files before overwriting.
-
----
 
 ## Verify Installation
 
