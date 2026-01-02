@@ -30,7 +30,9 @@ The Master Arm Switch serves as the main inhibitor switch for all weapons. The d
 !!! Warning
     TODO Add the logic for what happens when set to gunner
 
-If the Switch is in the down position, the turret moves to a locked forward position, lined up with the pilots gunsight. If the pilot has command of the turret, the orange light will be illuminated if electrical power is on.
+If the Switch is in the Pilot (down) position, the turret moves to a locked forward position, lined up with the pilots gunsight. The blue light will illuminate when the Pilot gun controls are active. Please note that the blue light will not extinguish if the CPG's pilot overide switch is active, as this is an overide mode that uses the Pilot's gun controls.
+
+If the Switch is in the Gunner (up) position, the turret is free to move and fire via the CPG's dedicated controls. In this instance, the blue light will be extinguished.
 
 ---
 
