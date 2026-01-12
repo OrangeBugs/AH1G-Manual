@@ -8,7 +8,7 @@ The AH-1G mod is fully playable on as a single pilot experience, but everything 
 ---
 
 ## Details
-The defualt port for multicrew is 25565. If you have ever hosted a Minecraft: Java Edition server for you and your friends, that may sound familiar, as it is the same port used for that server. If you have hosted a minecraft server this way recently and are already port forwarded for 25565, then there is no more setup needed.
+The default port for multicrew is 25565. If you have ever hosted a Minecraft: Java Edition server for you and your friends, that may sound familiar, as it is the same port used for that server. If you have hosted a minecraft server this way recently and are already port forwarded for 25565, then there is no more setup needed.
 
 !!! Note 
     *If you host a dedicated server from some other part of the network, or even on the same computer, with the goal of it always being online, it is advised to change the port so they do not conflict. Any non-reserved port works.*
