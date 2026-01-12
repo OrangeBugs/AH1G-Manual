@@ -79,6 +79,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#multicrew" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -436,6 +441,26 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multicrew
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         
@@ -453,6 +478,47 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#port-forwarding-tutorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Port Forwarding Tutorial
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -785,6 +851,38 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#details" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Details
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#port-forwarding-tutorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Port Forwarding Tutorial
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -801,9 +899,22 @@
 
 
 
-  <h1>Multicrew</h1>
-
-
+<h1 id="multicrew">Multicrew<a class="headerlink" href="#multicrew" title="Permanent link">#</a></h1>
+<p>The AH-1G mod is fully playable on as a single pilot experience, but everything is more fun with friends. Multicrew in the Cobra works just like you would expect it to on any first party module once the pilot does a one time setup. If you ever plan on being pilot in a multicrew enabled AH-1G, then you must port-forward your computer. However, the CPG needs no setup to connect to any Cobra which has been properly port forwarded.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>Because multicrew works so well with this configuration, we have put all of our multicrew programming time into this. Any multicrew without the port forwarding step and proper connection is undefined behavior that we will not be offering support for. If you cannot port forward, then you must either be a dedicated CPG, or use a VPN like system to connect local networks with whoever you plan on flying with.</em></p>
+</div>
+<hr />
+<h2 id="details">Details<a class="headerlink" href="#details" title="Permanent link">#</a></h2>
+<p>The defualt port for multicrew is 25565. If you have ever hosted a Minecraft: Java Edition server for you and your friends, that may sound familiar, as it is the same port used for that server. If you have hosted a minecraft server this way recently and are already port forwarded for 25565, then there is no more setup needed.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>If you host a dedicated server from some other part of the network, or even on the same computer, with the goal of it always being online, it is advised to change the port so they do not conflict. Any non-reserved port works.</em></p>
+</div>
+<p>If you need to change the port, this can be done from the AH-1G special options menu, and you should make sure this new port is what you forwarded. There will be no setup for the CPG to connect to your Cobra even if you changed ports. </p>
+<h2 id="port-forwarding-tutorial">Port Forwarding Tutorial<a class="headerlink" href="#port-forwarding-tutorial" title="Permanent link">#</a></h2>
+<p>There is a dedicated, general guide for port forwarding which can be found <a href="https://www.noip.com/support/knowledgebase/general-port-forwarding-guide">here</a>, but if you are unable to with these steps, or if your interface looks different, then you should google your router name + port forwarding and you may very well find a guide for your specific router.</p>
 
 
 
