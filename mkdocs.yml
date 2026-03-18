@@ -28,6 +28,7 @@ nav:
     - Overview: Weapons/Overview.md
     - Switches: Weapons/Switches.md
     - Employment: Weapons/Employment.md
+    - AI Gunner: Weapons/AIGunner.md
 
 
 theme:
