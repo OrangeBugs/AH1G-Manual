@@ -46,4 +46,4 @@ The examples below show how to bind the keybinds depending on your required inpu
 ---
 
 # Need Something Custom?
-Ping `@Hayds_93` in our [discord](/support/#discord-server) if your setup isn't standard, or if theres any trouble interfacing with various tools such as DCS BIOS.
+Ping `@Hayds_93` in our [discord](../support.md/#discord-server) if your setup isn't standard, or if theres any trouble interfacing with various tools such as DCS BIOS.

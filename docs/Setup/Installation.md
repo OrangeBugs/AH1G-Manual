@@ -2,7 +2,7 @@
 
 Please follow this guide step by step, without taking shortcuts, as files need to be installed in specific places.
 
-![alt text](/images/cobraRockets.png)
+![alt text](../images/cobraRockets.png)
 
 !!! Note
     This guide was done on windows 11, so some of the features for extracting zips I use here *might* not be in windows 10 or below. However the instructions still apply for the install.
