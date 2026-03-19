@@ -32,7 +32,8 @@ nav:
 
 
 theme:
-  # name: readthedocs
+  # logo: "images/AH-1G_Logo.png"
+  favicon: "images/AH-1G_Logo.png"
   name: material
   palette:
   - media: "(prefers-color-scheme)"
