@@ -74,7 +74,7 @@ This switch selects which stations are to be jettisoned. The middle position is 
 
 ![alt text](images/Jett.png)
 
-The Jettison Switch will jettison the selected stations if held for 5 seconds. if the [Jettison Side Selection Switch](#jettison-side-selection) is in the off position, this switch has no effect.
+The Jettison Switch will jettison the selected stations provided the Non Essential Bus has power. If the [Jettison Side Selection Switch](#jettison-side-selection) is in the off position, this switch has no effect.
 
 !!! Note
     If the Jettison Keybind is pressed, it is not necessary to lift the cover. Using the mouse to click the switch will require the cover to be lifted.
