@@ -20,6 +20,9 @@ nav:
     - Keybinds: Setup/Keybinds.md
     - Special Options: Setup/SpecialOptions.md
     - Multicrew: Setup/Multicrew.md
+  - Cockpit Layouts:
+    - Pilot: Cockpit/Pilot.md
+    - Gunner: Cockpit/Gunner.md
   - Radios:
     - Overview: Radios/Overview.md
   - Navigation:
