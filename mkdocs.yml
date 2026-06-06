@@ -24,14 +24,18 @@ nav:
     - Pilot: Cockpit/Pilot.md
     - Gunner: Cockpit/Gunner.md
   - Radios:
-    - Overview: Radios/Overview.md
+    - C-1611 Intercom: Radios/Intercom.md
+    - AN/ARC-51 UHF: Radios/ARC51.md
+    - AN/ARC-131 FM: Radios/ARC131.md
   - Navigation:
-    - Overview: Navigation/Overview.md
+    - AN/ARN-83 ADF: Navigation/ARN83.md
   - Weapons:
     - Overview: Weapons/Overview.md
     - Switches: Weapons/Switches.md
     - Employment: Weapons/Employment.md
     - AI Gunner: Weapons/AIGunner.md
+  - Misc.:
+    - Accessories: Misc/Accessories.md
 
 
 theme:

@@ -14,7 +14,7 @@
 | 5  | [Turret Panel](#turret-panel) | Master Arm, Turret Priority, Status Lights |
 | 6  | [Armament Panel](#armament-panel) | Jettison Select, Wing Station Select, Rocket Quantity, Smoke Launcher
 | 7  | 
-| 8  | 
+| 8  | [AN/ARC-131](../Radios/ARC131.md) | FM Radio, see the radio section.
 | 9  | 
 | 10 | 
 | 11 | 
