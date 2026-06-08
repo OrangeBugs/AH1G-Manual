@@ -54,25 +54,53 @@ Works for SRS and in game VOIP.
 
 ### Disable Gunner
 
+Completly disable the AI Gunner, this can potentially improve performance if you are having trouble, or just if you don't want to use it.
+
+!!! Note
+    The same effect can be acheived by always leaving the [Turret Owner Switch](../Weapons/Switches.md#turret-priority-switch) in the "PILOT" position.
+
+    The Gunner is disabled when a second player is in the CPG seat automatically.
 ---
 
 ### Mute Gunner
+
+Mute the AI Gunner voice lines.
+
+TODO add subititles or something
+
+!!! Note
+    This can be done temporarily in the cockpit by disabling the monitor intercom switch on the [Intercom Panel](../Radios/Intercom.md) 
+    
+    TODO refine link when intercom done, check feature implemented also
 
 ---
 
 ### Friendly Fire Override
 
+Disable Doug's moral compass. Allows targetting of your own coalition.
+
+!!! Warning
+    Destroying friendly units will reset your singleplayer awards, and may incur bans or other penalties on multiplayer servers.
+
+    Our tester "Charger" asked for this, blame him
+
 ---
 
 ### Disable Low Callouts
+
+Disables Doug calling out when there are 2 rockets left in the selected pods.
 
 ---
 
 ### Disable Empty Callouts
 
+Disable Doug calling out when the selected pods are empty.
+
 ---
 
 ### Menu Button Time
+
+Slider to adjust the amount of time the AI Gunner keybinds need to be held to access the long press functions.
 
 
 ---
@@ -83,7 +111,13 @@ Works for SRS and in game VOIP.
 
 #### Sunvisor Tint
 
-The colour of the sunvisor
+The colour of the sunvisor is adjustable via RGB values, 0-255. You can pick a colour [here](https://rgbcolorpicker.com/){:target=blank}.
+
+---
+
+#### Sunvisor Brightness
+
+Slider to adjust the brightness of the visor, 0-255, larger values are darker.
 
 ---
 
