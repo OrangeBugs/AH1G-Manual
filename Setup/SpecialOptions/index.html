@@ -55,6 +55,8 @@
     
       <link rel="stylesheet" href="../../css/links.css">
     
+      <link rel="stylesheet" href="../../css/headers.css">
+    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -656,6 +658,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#sunvisor-brightness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sunvisor Brightness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-animated-sunvisors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable Animated Sunvisors
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1133,34 +1157,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Weapons/Switches/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Switches
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../Weapons/Employment/" class="md-nav__link">
         
   
@@ -1515,6 +1511,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#sunvisor-brightness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sunvisor Brightness
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#disable-animated-sunvisors" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Disable Animated Sunvisors
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1586,21 +1604,49 @@
 <hr />
 <h2 id="ai-gunner-options">AI Gunner Options<a class="headerlink" href="#ai-gunner-options" title="Permanent link">#</a></h2>
 <h3 id="disable-gunner">Disable Gunner<a class="headerlink" href="#disable-gunner" title="Permanent link">#</a></h3>
+<p>Completly disable the AI Gunner, this can potentially improve performance if you are having trouble, or just if you don't want to use it.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The same effect can be acheived by always leaving the <a href="../../Cockpit/Pilot/#turret-priority-switch">Turret Owner Switch</a> in the "PILOT" position.</p>
+<p>The Gunner is disabled when a second player is in the CPG seat automatically.</p>
+</div>
 <hr />
 <h3 id="mute-gunner">Mute Gunner<a class="headerlink" href="#mute-gunner" title="Permanent link">#</a></h3>
+<p>Mute the AI Gunner voice lines.</p>
+<p>TODO add subititles or something</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This can be done temporarily in the cockpit by disabling the monitor intercom switch on the <a href="../../Radios/Intercom/">Intercom Panel</a> </p>
+<p>TODO refine link when intercom done, check feature implemented also</p>
+</div>
 <hr />
 <h3 id="friendly-fire-override">Friendly Fire Override<a class="headerlink" href="#friendly-fire-override" title="Permanent link">#</a></h3>
+<p>Disable Doug's moral compass. Allows targetting of your own coalition.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Destroying friendly units will reset your singleplayer awards, and may incur bans or other penalties on multiplayer servers.</p>
+<p>Our tester "Charger" asked for this, blame him</p>
+</div>
 <hr />
 <h3 id="disable-low-callouts">Disable Low Callouts<a class="headerlink" href="#disable-low-callouts" title="Permanent link">#</a></h3>
+<p>Disables Doug calling out when there are 2 rockets left in the selected pods.</p>
 <hr />
 <h3 id="disable-empty-callouts">Disable Empty Callouts<a class="headerlink" href="#disable-empty-callouts" title="Permanent link">#</a></h3>
+<p>Disable Doug calling out when the selected pods are empty.</p>
 <hr />
 <h3 id="menu-button-time">Menu Button Time<a class="headerlink" href="#menu-button-time" title="Permanent link">#</a></h3>
+<p>Slider to adjust the amount of time the AI Gunner keybinds need to be held to access the long press functions.</p>
 <hr />
 <h2 id="accessory-options">Accessory Options<a class="headerlink" href="#accessory-options" title="Permanent link">#</a></h2>
 <h3 id="sunvisor">Sunvisor<a class="headerlink" href="#sunvisor" title="Permanent link">#</a></h3>
 <h4 id="sunvisor-tint">Sunvisor Tint<a class="headerlink" href="#sunvisor-tint" title="Permanent link">#</a></h4>
-<p>The colour of the sunvisor</p>
+<p>The colour of the sunvisor is adjustable via RGB values, 0-255. You can pick a colour <a href="https://rgbcolorpicker.com/" target="blank">here</a>.</p>
+<hr />
+<h4 id="sunvisor-brightness">Sunvisor Brightness<a class="headerlink" href="#sunvisor-brightness" title="Permanent link">#</a></h4>
+<p>Slider to adjust the brightness of the visor, 0-255, larger values are darker.</p>
+<hr />
+<h4 id="disable-animated-sunvisors">Disable Animated Sunvisors<a class="headerlink" href="#disable-animated-sunvisors" title="Permanent link">#</a></h4>
+<p>If this option is enabled, the sunvisors will always be down by default in the external model. If disabled they will be synced with the state of your sunvisor overlay in the cockpit.</p>
 <hr />
 <h2 id="resetting-special-options">Resetting Special Options<a class="headerlink" href="#resetting-special-options" title="Permanent link">#</a></h2>
 <p>If for whatever reason you need to reset your special options to default, navigate to <code>Saved Games/DCS/Config/options.lua</code> and delete the entry for <code>"AH1G"</code>.</p>
