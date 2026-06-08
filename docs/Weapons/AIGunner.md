@@ -10,7 +10,7 @@ The AI Gunner needs 4 keybinds, this works best on a 4-way HAT switch on a HOTAS
 ## Activation
 The AI Gunner is enabled any time the pilot seat is occupied, and the front seat does not have a second player.
 
-The Gunner Menus are only visible when the gunner has control of the turret. This can be done via the [Turret Priority Switch](Switches.md#turret-priority-switch) in the UP position.
+The Gunner Menus are only visible when the gunner has control of the turret. This can be done via the [Turret Priority Switch](../Cockpit/Pilot.md#turret-priority-switch) in the UP position.
 
 ## Menus
 
@@ -28,7 +28,7 @@ The text in the center of the circle indicates the status of the gunner.
 
 When a target search is successful, and targets are found, a window will pop up in the bottom left corner, with a target list, sorted in order by distance.
 
-![alt text](images/targetList.png)
+![alt text](../Cockpit/images/targetList.png)
 
 The selection carrot on the left hand side can be moved up and down using the `UP` and `DOWN` keys, and use `RIGHT` to engage / disengage a target. `LEFT` will return to the previous menu, to allow for another search.
 

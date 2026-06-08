@@ -14,9 +14,9 @@ This page will be broken into three sections:
 ## Turret Employment
 
 ### XM28 Turret Pilot Position
-To arm the [XM28 Turret](Overview.md/#xm28-turret) from the pilots position, the [Master Arm Switch](Switches.md/#master-arm-switch) should be set to ***ARM***, and the [Turret Priority Switch](Switches.md/#turret-priority-switch) should be set to ***PILOT***. This can be confirmed by checking the blue and orange inicator lights on the [Turret Control Panel](Switches.md/#turret-control-master-arm-panel) are illuminated.
+To arm the [XM28 Turret](Overview.md#xm28-turret) from the pilots position, the [Master Arm Switch](../Cockpit/Pilot.md#master-arm-switch) should be set to ***ARM***, and the [Turret Priority Switch](../Cockpit/Pilot.md#turret-priority-switch) should be set to ***PILOT***. This can be confirmed by checking the blue and orange inicator lights on the [Turret Control Panel](../Cockpit/Pilot.md#turret-control-master-arm-panel) are illuminated.
 
-Specific sides of the turrets can be selected with the [Turret Side Selector](Switches.md/#xm28-turret-controls). Either left, right or both. This is adventageous when one each of the M134 and M129 are equipped, as they have different ranges, and ideally should not be fired simultaneously.
+Specific sides of the turrets can be selected with the [Turret Side Selector](../Cockpit/Pilot.md#xm28-turret-controls). Either left, right or both. This is adventageous when one each of the M134 and M129 are equipped, as they have different ranges, and ideally should not be fired simultaneously.
 
 The Turrets are fired by squeezing the trigger (**"Trigger (Fire Turrets)"** Keybind)
 
@@ -24,9 +24,9 @@ The Turrets are fired by squeezing the trigger (**"Trigger (Fire Turrets)"** Key
 
 | Switch | Position |
 | ------ | -------- |
-| [Master Arm](Switches.md/#master-arm-switch) | ARM |
-| [Turret Priority Switch](Switches.md/#turret-priority-switch) | PILOT |
-| [Turret Side Selector](Switches.md/#xm28-turret-controls) | AS DESIRED |
+| [Master Arm](../Cockpit/Pilot.md#master-arm-switch) | ARM |
+| [Turret Priority Switch](../Cockpit/Pilot.md#turret-priority-switch) | PILOT |
+| [Turret Side Selector](../Cockpit/Pilot.md#xm28-turret-controls) | AS DESIRED |
 | Trigger | Squeeze |
 
 ### XM28 Turret Gunner Position
@@ -42,20 +42,20 @@ The Turrets are fired by squeezing the trigger (**"Trigger (Fire Turrets)"** Key
 
 ### XM195, XM197 Turrets, Pilot Position
 
-To Arm the [XM195](Overview.md/#xm195-turret) or the [XM197](Overview.md/#xm197-turret) Turrets from the pilots position, the [Master Arm Switch](Switches.md/#master-arm-switch) should be set to ***ARM***, and the [Turret Priority Switch](Switches.md/#turret-priority-switch) should be set to ***PILOT***. This can be confirmed by checking the blue and orange inicator lights on the [Turret Control Panel](Switches.md/#turret-control-master-arm-panel) are illuminated.
+To Arm the [XM195](Overview.md#xm195-turret) or the [XM197](Overview.md#xm197-turret) Turrets from the pilots position, the [Master Arm Switch](../Cockpit/Pilot.md#master-arm-switch) should be set to ***ARM***, and the [Turret Priority Switch](../Cockpit/Pilot.md#turret-priority-switch) should be set to ***PILOT***. This can be confirmed by checking the blue and orange inicator lights on the [Turret Control Panel](../Cockpit/Pilot.md#turret-control-master-arm-panel) are illuminated.
 
 The Turrets are fired by squeezing the trigger (**"Trigger (Fire Turrets)"** Keybind)
 
 !!! Note
-    The [XM28 Control Panel](Switches.md/#turret-control-master-arm-panel) has no effect on these turrets, the inidicator lights will not be illuminated, and the [Turret Side Selector](Switches.md/#xm28-turret-controls) will be inoperative.
+    The [XM28 Control Panel](../Cockpit/Pilot.md#turret-control-master-arm-panel) has no effect on these turrets, the inidicator lights will not be illuminated, and the [Turret Side Selector](../Cockpit/Pilot.md#xm28-turret-controls) will be inoperative.
 
 
 #### Quick Reference Checklist
 
 | Switch | Position |
 | ------ | -------- |
-| [Master Arm](Switches.md/#master-arm-switch) | ARM |
-| [Turret Priority Switch](Switches.md/#turret-priority-switch) | PILOT |
+| [Master Arm](../Cockpit/Pilot.md#master-arm-switch) | ARM |
+| [Turret Priority Switch](../Cockpit/Pilot.md#turret-priority-switch) | PILOT |
 | Trigger | Squeeze |
 
 
@@ -78,14 +78,14 @@ The AH-1Gs Turrets from the pilot seat are boresighted on the center of the guns
 
 ## Rocket Employment
 
-Rockets are operated from the [Rocket Control Panel](Switches.md/#wing-station-panel). Firing pulses are sent to both selected stations, and two rockets, one per station, fire per pulse.
+Rockets are operated from the [Rocket Control Panel](../Cockpit/Pilot.md#armament-panel). Firing pulses are sent to both selected stations, and two rockets, one per station, fire per pulse.
 
 !!! Note
     All Rocket Systems (XM157, XM158, XM159) are operated the same.
 
-To arm the rockets, the [Master Arm Switch](Switches.md/#master-arm-switch) should be set to ***ARM*** and the [Wing Station Selector](Switches.md/#wing-station-arming) should be set to **OUTBOARD** or **INBOARD** as desired.
+To arm the rockets, the [Master Arm Switch](../Cockpit/Pilot.md#master-arm-switch) should be set to ***ARM*** and the [Wing Station Selector](../Cockpit/Pilot.md#wing-station-arming) should be set to **OUTBOARD** or **INBOARD** as desired.
 
-Rocket Salvos can be configured using the [Salvo Quantity Knob](Switches.md/#rocket-salvo-selection) to either 1, 2, 4, 7, or 19. Rockets are fired in 0.167 second intervals.
+Rocket Salvos can be configured using the [Salvo Quantity Knob](../Cockpit/Pilot.md#rocket-salvo-selection) to either 1, 2, 4, 7, or 19. Rockets are fired in 0.167 second intervals.
 
 Rockets are fired with the **"Weapon Release (Fire Rockets)"** Keybind.
 
@@ -106,9 +106,9 @@ The AH-1Gs Rockets are boresighted to travel along the angled lines at the top o
 
 | Switch | Position |
 | ------ | -------- |
-| [Master Arm](Switches.md/#master-arm-switch) | ARM |
-| [Salvo Quantity Knob](Switches.md/#rocket-salvo-selection) | AS DESIRED |
-| [Wing Station Selector](Switches.md/#wing-station-arming) | INBOARD / OUTBOARD |
+| [Master Arm](../Cockpit/Pilot.md#master-arm-switch) | ARM |
+| [Salvo Quantity Knob](../Cockpit/Pilot.md#rocket-salvo-selection) | AS DESIRED |
+| [Wing Station Selector](../Cockpit/Pilot.md#wing-station-arming) | INBOARD / OUTBOARD |
 | Weapon Release | PRESS |
 
 ---

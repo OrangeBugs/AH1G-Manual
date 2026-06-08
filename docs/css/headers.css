@@ -1,0 +1,4 @@
+.md-typeset h5 { /*Override for H5 (#####)*/
+    color: rgba(255, 255, 255, 0.753);
+    font-size: 15px;
+}

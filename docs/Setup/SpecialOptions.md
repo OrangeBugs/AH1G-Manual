@@ -57,7 +57,7 @@ Works for SRS and in game VOIP.
 Completly disable the AI Gunner, this can potentially improve performance if you are having trouble, or just if you don't want to use it.
 
 !!! Note
-    The same effect can be acheived by always leaving the [Turret Owner Switch](../Weapons/Switches.md#turret-priority-switch) in the "PILOT" position.
+    The same effect can be acheived by always leaving the [Turret Owner Switch](../Cockpit/Pilot.md#turret-priority-switch) in the "PILOT" position.
 
     The Gunner is disabled when a second player is in the CPG seat automatically.
 ---

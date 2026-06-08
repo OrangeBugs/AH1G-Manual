@@ -11,6 +11,7 @@ extra_css:
   - css/drafts.css
   - css/images.css
   - css/links.css
+  - css/headers.css
 
 nav:
   - AH-1G Manual: index.md
@@ -31,7 +32,6 @@ nav:
     - AN/ARN-83 ADF: Navigation/ARN83.md
   - Weapons:
     - Overview: Weapons/Overview.md
-    - Switches: Weapons/Switches.md
     - Employment: Weapons/Employment.md
     - AI Gunner: Weapons/AIGunner.md
   - Misc.:
