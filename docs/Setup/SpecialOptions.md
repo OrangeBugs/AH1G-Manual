@@ -121,6 +121,12 @@ Slider to adjust the brightness of the visor, 0-255, larger values are darker.
 
 ---
 
+#### Disable Animated Sunvisors
+
+If this option is enabled, the sunvisors will always be down by default in the external model. If disabled they will be synced with the state of your sunvisor overlay in the cockpit.
+
+---
+
 ## Resetting Special Options
 
 If for whatever reason you need to reset your special options to default, navigate to `Saved Games/DCS/Config/options.lua` and delete the entry for `"AH1G"`.
