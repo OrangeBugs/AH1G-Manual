@@ -1010,6 +1010,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#main-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search Menu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Search Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#pie-menu" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1028,6 +1051,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1217,6 +1245,29 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#main-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main Menu
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-menu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Search Menu
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Search Menu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#pie-menu" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1235,6 +1286,11 @@
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1274,22 +1330,45 @@
 <h1 id="ai-gunner">AI Gunner<a class="headerlink" href="#ai-gunner" title="Permanent link">#</a></h1>
 <h2 id="doug">Doug<a class="headerlink" href="#doug" title="Permanent link">#</a></h2>
 <p>We have named our gunner Doug, after our voice actor and SME "Doogie". Doogie has had a distinguished US Navy Rotary Wing career, now flying Hueys in a SAR role in the civilian world (see his <a href="https://www.youtube.com/@DoogiesRotorReview" target="_blank">YouTube</a> for some awesome content). On the side, Doogie flies an S model Cobra for a musuem, and his feedback has been valuable in validation functionality and performance.</p>
+<hr />
 <h2 id="keybinds">Keybinds<a class="headerlink" href="#keybinds" title="Permanent link">#</a></h2>
 <p>The AI Gunner needs 4 keybinds, this works best on a 4-way HAT switch on a HOTAS. These keys will be used to navigate the menu, select targets, and perform various actions.
 <img alt="Gunner Keybinds" src="../images/ai_gunner_keybinds.png" /></p>
+<p>Pressing these keys in the direction shown by the <a href="#menus">menus</a> will perform that action.</p>
+<p>The time required to activate a long press can be adjusted in the <a href="../../Setup/SpecialOptions/#menu-button-time">special options</a>.</p>
+<hr />
 <h2 id="activation">Activation<a class="headerlink" href="#activation" title="Permanent link">#</a></h2>
 <p>The AI Gunner is enabled any time the pilot seat is occupied, and the front seat does not have a second player.</p>
 <p>The Gunner Menus are only visible when the gunner has control of the turret. This can be done via the <a href="../../Cockpit/Pilot/#turret-priority-switch">Turret Priority Switch</a> in the UP position.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Ensure the gunner is not disabled in <a href="../../Setup/SpecialOptions/#disable-gunner">special options</a>. It is enabled by default.</p>
+</div>
+<hr />
 <h2 id="menus">Menus<a class="headerlink" href="#menus" title="Permanent link">#</a></h2>
-<h3 id="pie-menu">Pie Menu<a class="headerlink" href="#pie-menu" title="Permanent link">#</a></h3>
 <p>The Pie menu on the right hand side of the screen is an indicator of what each <a href="#keybinds">button press</a> will do.</p>
-<p><img alt="Gunner Pie Menu" src="../images/pieMenu1.png" /></p>
-<p>In the above example, pressing <code>UP</code> will perform a target search, <code>RIGHT</code> will change the ROE mode, and <code>DOWN</code> will configure the turret arming / power switches in the front seat.</p>
-<p>The text in the center of the circle indicates the status of the gunner.</p>
-<h3 id="target-selection-window">Target Selection Window<a class="headerlink" href="#target-selection-window" title="Permanent link">#</a></h3>
+<h3 id="main-menu">Main Menu<a class="headerlink" href="#main-menu" title="Permanent link">#</a></h3>
+<p><img alt="AI Gunner Pie Menu" src="../images/pie_menu_1.png" /></p>
+<ul>
+<li>A <code>long press up</code> will perform a <a href="#target-search">Target Search</a></li>
+<li>A <code>long press down</code> will configure the turret arming / power switches in the front seat.</li>
+</ul>
+<hr />
+<h3 id="search-menu">Search Menu<a class="headerlink" href="#search-menu" title="Permanent link">#</a></h3>
+<h4 id="pie-menu">Pie Menu<a class="headerlink" href="#pie-menu" title="Permanent link">#</a></h4>
+<p><img alt="AI Gunner Pie Menu" src="../images/pie_menu_2.png" /></p>
+<p>When a successful target search happens, the pie menu swaps to the search menu.</p>
+<ul>
+<li>A <code>long press left</code> will return to the <a href="#main-menu">Main Menu</a></li>
+<li>A <code>long press up</code> will preform a fresh search</li>
+<li>A <code>short press up</code> or down will scroll up or down in the <a href="#target-selection-window">Target Selection Window</a></li>
+<li>A <code>short press right</code> will engage the selected target</li>
+</ul>
+<h4 id="target-selection-window">Target Selection Window<a class="headerlink" href="#target-selection-window" title="Permanent link">#</a></h4>
 <p>When a target search is successful, and targets are found, a window will pop up in the bottom left corner, with a target list, sorted in order by distance.</p>
-<p><img alt="alt text" src="../../Cockpit/images/targetList.png" /></p>
-<p>The selection carrot on the left hand side can be moved up and down using the <code>UP</code> and <code>DOWN</code> keys, and use <code>RIGHT</code> to engage / disengage a target. <code>LEFT</code> will return to the previous menu, to allow for another search.</p>
+<p><img alt="alt text" src="../images/targetList.png" /></p>
+<p>Friendly Units are in Blue, hostiles in Red, and neutral / Non combative units will be in White.</p>
+<hr />
 <h2 id="target-search">Target Search<a class="headerlink" href="#target-search" title="Permanent link">#</a></h2>
 <p>When conducting a target search, the gunner will look for targets +/- 25 degrees of azimuth either side of the pilots head direction at the moment the search is initiated, out to a range of 5000 meters. Line of sight is accounted for, so if you can't see them on your screen, its likely that the gunner won't see them either.</p>
 <div class="admonition warning">
