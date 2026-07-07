@@ -24,6 +24,8 @@ nav:
   - Cockpit Layouts:
     - Pilot: Cockpit/Pilot.md
     - Gunner: Cockpit/Gunner.md
+  - Procedures: 
+    - Performance Calcs: Procedures/performance.md
   - Radios:
     - C-1611 Intercom: Radios/Intercom.md
     - AN/ARC-51 UHF: Radios/ARC51.md
