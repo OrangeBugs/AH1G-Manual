@@ -1,0 +1,212 @@
+.ah1g-performance-calculator {
+    /* Material for MkDocs theme variables */
+    --primary: var(--md-primary-fg-color);
+    --primary-light: var(--md-primary-fg-color--light);
+    --primary-dark: var(--md-primary-fg-color--dark);
+
+    --text: var(--md-default-fg-color);
+    --text-muted: var(--md-default-fg-color--light);
+    --text-faint: var(--md-default-fg-color--lighter);
+
+    --background: var(--md-default-bg-color);
+    --background-alt: var(--md-code-bg-color);
+
+    --border: var(--md-default-fg-color--lightest);
+
+    font-family: var(--md-text-font, system-ui, sans-serif);
+}
+
+/* ------------------------------------------------------------ */
+/* Headings */
+/* ------------------------------------------------------------ */
+
+.ah1g-performance-calculator h1 {
+    color: var(--primary);
+    font-size: 22px;
+    margin: 0 0 .25rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid var(--primary);
+    padding-bottom: .5rem;
+}
+
+.ah1g-performance-calculator .subtitle {
+    margin: 0 0 1.25rem;
+    font-size: .8rem;
+    color: var(--text-muted);
+}
+
+/* ------------------------------------------------------------ */
+/* Layout */
+/* ------------------------------------------------------------ */
+
+.ah1g-performance-calculator .input-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 500px) {
+    .ah1g-performance-calculator .input-row {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.ah1g-performance-calculator .field {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ------------------------------------------------------------ */
+/* Form Controls */
+/* ------------------------------------------------------------ */
+
+.ah1g-performance-calculator label {
+    margin-bottom: .35rem;
+    font-size: .8rem;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.ah1g-performance-calculator input,
+.ah1g-performance-calculator select {
+    padding: .65rem;
+    font-size: .875rem;
+
+    color: var(--text);
+    background: var(--background);
+
+    border: 1px solid var(--border);
+    border-radius: .3rem;
+
+    transition:
+        border-color .2s,
+        box-shadow .2s,
+        background .2s;
+}
+
+.ah1g-performance-calculator input:hover,
+.ah1g-performance-calculator select:hover {
+    border-color: var(--primary-light);
+}
+
+.ah1g-performance-calculator input:focus,
+.ah1g-performance-calculator select:focus {
+    border-color: var(--primary);
+    outline: none;
+    box-shadow: 0 0 0 .15rem color-mix(in srgb, var(--primary) 20%, transparent);
+}
+
+.ah1g-performance-calculator .hint {
+    margin-top: .3rem;
+    font-size: .7rem;
+    color: var(--text-muted);
+}
+
+/* ------------------------------------------------------------ */
+/* Button */
+/* ------------------------------------------------------------ */
+
+.ah1g-performance-calculator .actions {
+    margin-top: 1rem;
+}
+
+.ah1g-performance-calculator button {
+    width: 100%;
+
+    padding: .75rem;
+
+    font-size: .95rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    color: var(--md-primary-bg-color);
+    background: var(--primary);
+
+    border: none;
+    border-radius: .3rem;
+
+    transition: background .2s ease;
+}
+
+.ah1g-performance-calculator button:hover {
+    background:  var(--md-code-bg-color);
+}
+
+/* ------------------------------------------------------------ */
+/* Output */
+/* ------------------------------------------------------------ */
+
+.ah1g-performance-calculator .output-panel {
+    margin-top: 1.5rem;
+    padding: 1.25rem;
+
+    background: var(--background-alt);
+
+    border: 1px solid var(--border);
+    border-left: .35rem solid var(--primary);
+    border-radius: .3rem;
+}
+
+.ah1g-performance-calculator .output-header {
+    margin-bottom: .75rem;
+    padding-bottom: .35rem;
+
+    font-size: 1rem;
+    font-weight: 700;
+
+    color: var(--md-default-fg-color);
+
+    border-bottom: 1px dashed var(--border);
+}
+
+.ah1g-performance-calculator .row {
+    display: flex;
+    justify-content: space-between;
+
+    padding: .45rem 0;
+
+    color: var(--text);
+
+    border-bottom: 1px solid var(--border);
+}
+
+.ah1g-performance-calculator .row:last-child {
+    border-bottom: none;
+}
+
+.ah1g-performance-calculator .val {
+    font-weight: 600;
+}
+
+/* ------------------------------------------------------------ */
+/* Status Badges */
+/* ------------------------------------------------------------ */
+
+.ah1g-performance-calculator .badge {
+    display: inline-block;
+
+    padding: .2rem .45rem;
+
+    border-radius: .25rem;
+
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.ah1g-performance-calculator .go {
+    color: #2e7d32;
+    background: rgba(46,125,50,.15);
+}
+
+.ah1g-performance-calculator .caution {
+    color: #f9a825;
+    background: rgba(249,168,37,.15);
+}
+
+.ah1g-performance-calculator .nogo {
+    color: #c62828;
+    background: rgba(198,40,40,.15);
+}
