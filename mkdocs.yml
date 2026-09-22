@@ -13,6 +13,7 @@ extra_css:
   - css/links.css
   - css/headers.css
   - css/calculators.css
+  - css/sidebar.css
 
 extra_javascript:
   - Calculators/Scripts/hover.js
@@ -43,6 +44,7 @@ nav:
   - Misc.:
     - Accessories: Misc/Accessories.md
 
+use_directory_urls: false
 
 theme:
   # logo: "images/AH-1G_Logo.png"

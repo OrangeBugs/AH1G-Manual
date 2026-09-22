@@ -1,0 +1,21 @@
+* {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+    scrollbar-gutter: auto !important;
+}
+
+*::-webkit-scrollbar {
+    width: 0 !important;
+    height: 0 !important;
+    display: none !important;
+    background: transparent !important;
+}
+
+*::-webkit-scrollbar-track,
+*::-webkit-scrollbar-thumb,
+*::-webkit-scrollbar-corner {
+    width: 0 !important;
+    height: 0 !important;
+    background: transparent !important;
+    border: 0 !important;
+}
