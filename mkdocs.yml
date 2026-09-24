@@ -1,48 +1,42 @@
 site_name: DCS AH-1G Cobra Manual
 
-markdown_extensions:
-  - admonition
-  - attr_list
-  - pymdownx.blocks.caption
-  - toc:
-      permalink: "#"
-
-extra_css:
-  - css/drafts.css
-  - css/images.css
-  - css/links.css
-  - css/headers.css
-  - css/calculators.css
-  - css/sidebar.css
-
-extra_javascript:
-  - Calculators/Scripts/hover.js
-
 nav:
-  - AH-1G Manual: index.md
-  - Support / Bug Reporting: support.md
-  - Setup:
-    - Installation: Setup/Installation.md
-    - Keybinds: Setup/Keybinds.md
-    - Special Options: Setup/SpecialOptions.md
-    - Multicrew: Setup/Multicrew.md
-  - Cockpit Layouts:
-    - Pilot: Cockpit/Pilot.md
-    - Gunner: Cockpit/Gunner.md
-  - Radios:
-    - C-1611 Intercom: Radios/Intercom.md
-    - AN/ARC-51 UHF: Radios/ARC51.md
-    - AN/ARC-131 FM: Radios/ARC131.md
-  - Navigation:
-    - AN/ARN-83 ADF: Navigation/ARN83.md
-  - Weapons:
-    - Overview: Weapons/Overview.md
-    - Employment: Weapons/Employment.md
-    - AI Gunner: Weapons/AIGunner.md
-  - Calculators: 
-    - Hover: Calculators/Hover.md
-  - Misc.:
-    - Accessories: Misc/Accessories.md
+  - Introduction: index.md
+
+  - Simulator Basics:
+      - Installation: simulator/installation.md
+      - Controls Setup: simulator/controls.md
+      - Special Options: simulator/special-options.md
+
+  - Aircraft Reference:
+      - History And Overview: aircraft/history-overview.md
+      - Rear Cockpit: aircraft/rear-cockpit.md
+      - Front Cockpit: aircraft/front-cockpit.md
+
+  - Flight Fundamentals:
+      - Helicopter Flight Theory: fundamentals/helicopter-flight-theory.md
+      - Maneuvers: fundamentals/maneuvers.md
+
+  - Procedures:
+      - Startup: procedures/startup.md
+      - Takeoff: procedures/takeoff.md
+      - Hovering: procedures/hovering.md
+      - Landing: procedures/landing.md
+      - Shutdown: procedures/shutdown.md
+      - Refueling And Rearming: procedures/refueling-rearming.md
+
+  - Mission Systems:
+      - Navigation: mission-systems/navigation.md
+      - Radio Communications: mission-systems/radio-communications.md
+
+  - Weapons Systems:
+    - Weapons Overview: weapons/weapons-overview.md
+    - Weapons Employment: weapons/weapons-employment.md
+    - AI Gunner Employment: weapons/ai-gunner.md
+
+  - Appendices:
+      - Abbreviated Checklists: appendices/checklists.md
+      - Glossary: appendices/glossary.md
 
 use_directory_urls: false
 
@@ -84,5 +78,23 @@ theme:
     - toc.follow
     - toc.integrate
 
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.blocks.caption
+  - toc:
+      permalink: "#"
+
+extra_css:
+  - css/drafts.css
+  - css/images.css
+  - css/links.css
+  - css/headers.css
+  - css/calculators.css
+  - css/sidebar.css
+  - css/tags.css
+
+extra_javascript:
+  - Calculators/Scripts/hover.js
 # plugins:
   # - to-pdf
