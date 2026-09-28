@@ -84,7 +84,7 @@ To resolve this issue, blades are manufactured with mechanical blade twist. Blad
 Virtual pilots must differentiate between mechanical angles set by control linkages and aerodynamic angles resulting from relative airflow:
 
 * Angle of Incidence (AOI): The mechanical pitch angle between the rotor blade chord line and the main rotor hub or tip-path plane. AOI is directly commanded by pilot inputs through collective and cyclic pitch controls.
-* Angle of Attack (AOA): The aerodynamic angle measured between the blade chord line and the resultant relative wind. AOA directly determines the coefficient of lift (C_L). While pilots influence \text{AOA} by altering \text{AOI}, \text{AOA} changes dynamically during flight as airflow vectors shift, even without mechanical control movement.
+* Angle of Attack (AOA): The aerodynamic angle measured between the blade chord line and the resultant relative wind. AOA directly determines the coefficient of lift (CL). While pilots influence AOA by altering AOI, AOA changes dynamically during flight as airflow vectors shift, even without mechanical control movement.
 
 ![alt text](../images/AOA.png)
 
