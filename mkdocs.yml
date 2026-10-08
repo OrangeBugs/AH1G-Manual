@@ -16,6 +16,7 @@ nav:
   - Flight Fundamentals:
       - Helicopter Flight Theory: fundamentals/helicopter-flight-theory.md
       - Maneuvers: fundamentals/maneuvers.md
+      - Combat Tactics: fundamentals/combat-techniques.md
 
   - Procedures:
       - Startup: procedures/startup.md
