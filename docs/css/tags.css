@@ -1,0 +1,40 @@
+/* TODO tag */
+
+.api {
+  font-family: monospace;
+}
+
+/* Pseudo-elements (headings) */
+h1.TODO-section::after,
+h2.TODO-section::after,
+h3.TODO-section::after,
+h4.TODO-section::after,
+h5.TODO-section::after,
+h6.TODO-section::after {
+  content: " TODO";
+}
+
+/* Shared badge styling */
+.TODO-badge,
+h1.TODO-section::after,
+h2.TODO-section::after,
+h3.TODO-section::after,
+h4.TODO-section::after,
+h5.TODO-section::after,
+h6.TODO-section::after {
+  display: inline-block;
+  margin-left: 0.6em;
+  padding: 0.5em 0.55em;
+
+  font-size: 0.65em;
+  font-weight: 600;
+  font-style: bold;
+  line-height: 1;
+
+  border-radius: 0.25rem;
+
+  background: orange;
+  color: black;
+
+  vertical-align: middle;
+}
