@@ -31,9 +31,9 @@ nav:
       - Radio Communications: mission-systems/radio-communications.md
 
   - Weapons Systems:
-    - Weapons Overview: weapons/weapons-overview.md
-    - Weapons Employment: weapons/weapons-employment.md
-    - AI Gunner Employment: weapons/ai-gunner.md
+    - Weapons Overview: Weapons/weapons-overview.md
+    - Weapons Employment: Weapons/weapons-employment.md
+    - AI Gunner Employment: Weapons/ai-gunner.md
 
   - Appendices:
       - Abbreviated Checklists: appendices/checklists.md

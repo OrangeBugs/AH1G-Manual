@@ -57,7 +57,7 @@ Works for SRS and in game VOIP.
 Completly disable the AI Gunner, this can potentially improve performance if you are having trouble, or just if you don't want to use it.
 
 !!! Note
-    The same effect can be acheived by always leaving the [Turret Owner Switch](../Cockpit/Pilot.md#turret-priority-switch) in the "PILOT" position.
+    The same effect can be acheived by always leaving the [Turret Owner Switch] in the "PILOT" position.
 
     The Gunner is disabled when a second player is in the CPG seat automatically.
 ---
@@ -69,7 +69,7 @@ Mute the AI Gunner voice lines.
 TODO add subititles or something
 
 !!! Note
-    This can be done temporarily in the cockpit by disabling the monitor intercom switch on the [Intercom Panel](../Radios/Intercom.md) 
+    This can be done temporarily in the cockpit by disabling the monitor intercom switch on the [Intercom Panel]
     
     TODO refine link when intercom done, check feature implemented also
 
