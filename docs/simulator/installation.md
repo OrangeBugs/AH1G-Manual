@@ -1,15 +1,38 @@
 # Installation Guide
 
-Please follow this guide step by step, without taking shortcuts, as files need to be installed in specific places.
+The DCS: AH-1G Cobra is available for install via 2 methods, either via our mod installer application or via direct download from github.
 
 ![alt text](../images/cobraRockets.png)
+
+---
+
+## Installer Application {: .TODO-section }
+
+### Installer Download and Install
+
+### Configuring Saved Games Path
+
+### Mod Installation
+
+### Mod Updating
+
+### Livery Packs
+
+### Version Selection
+
+---
+
+## Manual Install {: .TODO-section }
+
+For those not wishing to use our installer application, manual installation is available via direct download from github.
+
+Please follow this guide step by step, without taking shortcuts, as files need to be installed in specific places.
 
 !!! Note
     This guide was done on windows 11, so some of the features for extracting zips I use here *might* not be in windows 10 or below. However the instructions still apply for the install.
 
----
 
-## Download
+### Download
 
 !!! Warning
     Add the download link when its release time (TODO)  
@@ -28,7 +51,7 @@ Download the `AH-1G-vX.X.X.zip` file, and the livery packs as desired.
 
 ---
 
-## Updating
+### Updating
 
 To update to a new version and prevent any potential issues, please uninstall any previous versions.
 
@@ -41,7 +64,7 @@ Repeat steps in [Download](#download) and [Installation](#installation)
 
 ---
 
-## Installation
+### Installation
 
 You should now have at least 2 zip files in your downloads.
 
@@ -55,6 +78,8 @@ Click `Extract`
 
 ![alt text](images/extraction.png)
 
+TODO remove info from this image
+
 ![alt text](images/extractionBrowser.png)
 
 !!! Warning
@@ -66,6 +91,8 @@ Wait for the extraction to complete, then repeat the above steps for any remaini
 
 
 
-## Verify Installation
+### Verify Installation
 
 To verify the mod has been installed correctly, when you load DCS to the main menu, in the bottom left you should see the icon for the AH-1G cobra, with our logo, and the version number you downloaded. If the weapon pack fails to install if you installed incorrectly you will recieve a printed error in the top right of the screen when you load in game, and no weapons will be available to you in the rearm screen / mission editor.
+
+---
