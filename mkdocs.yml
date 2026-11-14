@@ -2,6 +2,7 @@ site_name: DCS AH-1G Cobra Manual
 
 nav:
   - Introduction: index.md
+  - Support: support.md
 
   - Simulator Basics:
       - Installation: simulator/installation.md
