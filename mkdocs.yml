@@ -96,7 +96,7 @@ extra_css:
   - css/sidebar.css
   - css/tags.css
 
-extra_javascript:
-  - Calculators/Scripts/hover.js
+# extra_javascript:
+#   - Calculators/Scripts/hover.js
 # plugins:
   # - to-pdf
